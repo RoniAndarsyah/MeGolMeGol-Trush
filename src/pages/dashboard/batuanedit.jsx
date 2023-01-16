@@ -14,7 +14,7 @@ import {
 } from "@material-tailwind/react";
 import axios from "axios";
 
-export function Batuan() {
+export function Batuanedit() {
     const url = "https://sbc-sebatcabut.herokuapp.com";
     const [formData, setFormData] = useState({
         id: "639ac7f63153ff7083d5b797",
@@ -848,4 +848,4 @@ export function Batuan() {
     );
 }
 
-export default Batuan;
+export default Batuanedit;

@@ -20,6 +20,7 @@ import {
   EllipsisVerticalIcon,
   ArrowUpIcon,
 } from "@heroicons/react/24/outline";
+import Gis from "@/context/Gis";
 
 import { StatisticsCard } from "@/widgets/cards";
 
@@ -130,8 +131,8 @@ export function Home() {
                     {tableDataHome.map(
                       ({ jenis, total }, key) => {
                         const className = `py-3 px-5 ${key === tableDataHome.length - 1
-                            ? ""
-                            : "border-b border-blue-gray-50"
+                          ? ""
+                          : "border-b border-blue-gray-50"
                           }`;
                         return (
                           <tr key={jenis}>
@@ -440,7 +441,18 @@ export function Home() {
             )}
           </CardBody>
         </Card> */}
+
       </div>
+      <Card >
+        <CardHeader variant="gradient" color="blue" className="mb-8 p-6">
+          <Typography variant="h6" color="white">
+            Opeenstreetmap
+          </Typography>
+        </CardHeader>
+        <CardBody className="overflow-x-scroll px-0 pt-0 pb-2">
+          <Gis />
+        </CardBody>
+      </Card>
     </div>
   );
 }
