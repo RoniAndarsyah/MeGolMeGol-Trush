@@ -11,5 +11,4 @@ function App() {
   );
 }
 
-asdasd
 export default App;
