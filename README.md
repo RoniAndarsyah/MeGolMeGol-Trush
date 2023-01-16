@@ -11,7 +11,9 @@ Museum Geologi didirikan pada 16 Mei 1929. Museum ini direnovasi dengan dana ban
 > Routes
 
 # Automatic Deploy Netlify
-``https://museumgeologibandung-maps.netlify.app/``
+``[https://museumgeologibandung-maps.netlify.app/](https://museumgeologibandung-maps.netlify.app/
+
+)``
 
 # Material 
 
